@@ -1,0 +1,98 @@
+/* Login.css */
+
+/* Apply the background image to the entire container */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/736x/24/9d/85/249d85b8c53b4ffa855365fdf8d5603f.jpg');
+    background-size: cover;  /* Make the image cover the entire viewport */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat;  /* Prevent repeating the image */
+  }
+  
+  /* Container for the form */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    z-index: 1;
+  }
+  
+  /* Title styling */
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: black;
+    z-index: 1;
+  }
+  
+  .borderBox {
+    border: 2px solid orange;
+    padding: 70px;
+    border-radius: 10px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .innerBox {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 12px;
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  /* Styling for Remember Me checkbox below password box */
+  .rememberMe {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 3px;  /* Space between password input and checkbox */
+    width: 100%;
+    justify-content: flex-start;  /* Align it to the left */
+  }
+  
+  .rememberMe input {
+    margin-right: 5px;  /* Space between checkbox and label */
+  }
+  
+  .rememberMeLabel {
+    font-size: 14px;
+    color: #333;
+  }
+  

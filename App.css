@@ -1,0 +1,189 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://img.freepik.com/premium-vector/abstract-colorful-watercolor-vector-background-graphic-design_266878-323.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border: 2px solid orange;
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 80%;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 70px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login-btn {
+  padding: 5px 15px;
+  background-color: white;
+  border: 2px solid #007bff;
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.signup-btn {
+  padding: 5px 15px;
+  background-color: orange;
+  border: 2px solid orange;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #ff7f00;
+}
+
+/* Title Section */
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  height: calc(100vh - 120px);
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main-title {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 0.9;
+  color: rgb(1, 1, 12);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.highlight {
+  color: orange;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 20px;
+  line-height: 1.6;
+  text-align: left;
+  max-width: 70%;
+  margin-bottom: 20px;
+}
+
+/* Email input and Subscribe Button styles */
+.email-form {
+  display: flex;
+  flex-direction: row; /* Set the items to be side by side */
+  gap: 10px; /* Add space between the input and button */
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.email-input {
+  padding: 15px;
+  font-size: 1.2rem;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  width: 70%; /* Make email input 70% of the container */
+}
+
+.submit-btn {
+  padding: 15px 30px;
+  background-color: orange;
+  border: 2px solid orange;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  width: 30%; /* Make the subscribe button 30% of the container */
+}
+
+.submit-btn:hover {
+  background-color: #ff7f00;
+}
+
+/* Browse Courses Button styles */
+.browse-courses-btn {
+  padding: 15px 30px;
+  background-color: orange;
+  border: 2px solid orange;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  margin-top: 20px;
+}
+
+.browse-courses-btn:hover {
+  background-color: #ff7f00;
+}
+
+/* Image Section */
+.image-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-logo {
+  max-width: 100%;
+  height: auto;
+  width: 600px;
+}

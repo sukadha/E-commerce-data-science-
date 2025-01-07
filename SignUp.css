@@ -1,0 +1,106 @@
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://i.pinimg.com/736x/c4/46/12/c446124fcfd3d5b903417be8249e8e77.jpg');
+}
+
+.signup-header {
+  width: 100%;
+  text-align: center;
+  background-color: #f8f8f8; /* Light background for the title */
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.signup-title {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: bold;
+  margin: 0;
+  flex: 1; /* Allow the title to take available space */
+  text-align: center; /* Center the title */
+}
+
+.breadcrumb {
+  font-size: 1rem;
+  color: #333;
+  text-align: right; /* Align the breadcrumb to the right */
+}
+
+.breadcrumb a {
+  color: orange;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.signup-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  border: 2px solid orange;
+  width: 100%;
+  max-width: 450px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.signup-box label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.signup-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.signup-box button {
+  width: 100%;
+  padding: 14px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.signup-box button:hover {
+  background-color: darkorange;
+}
+
+.name-fields {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.field-container {
+  flex: 1;
+  max-width: 200px;
+}

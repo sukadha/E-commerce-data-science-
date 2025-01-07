@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+
+  body {
+    background-image: url('https://i.pinimg.com/736x/03/ca/b1/03cab1b26c5c52cab9fa402c51cef092.jpg');
+    background-size: cover; /* This ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+  }
+  
+  .courses-title-box {
+    border: 3px solid orange; /* Orange border */
+    padding: 10px 20px;
+    margin-bottom: 90px; /* Increased margin-bottom to add space between title and images */
+    display: inline-block;
+  }
+  
+  .title {
+    font-size: 2.5rem; /* Reduced font size */
+    font-weight: bold;
+    color: #070000;
+    margin: 0; /* Remove margin to fit the title inside the border box */
+  }
+  
+  .subtitle {
+    font-size: 1.6rem; /* Reduced font size */
+    font-weight: 600;
+    color: #070000;
+    margin-bottom: 15px; /* Increased margin-bottom for more space */
+  }
+  
+  .description {
+    font-size: 1.3rem; /* Reduced font size */
+    color: #070000;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 30px; /* Increased margin-bottom for more space */
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  .nav-button {
+    font-size: 1.8rem; /* Reduced font size */
+    font-weight: bold;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px; /* Adjusted padding for smaller buttons */
+    margin: 0 15px; /* Increased margin for more space between buttons */
+  }
+  
+  .nav-button:hover {
+    background-color: #ccc;
+  }
+  
+  .image-container {
+    display: flex;
+    gap: 30px; /* Increased gap for more space between images */
+    overflow: hidden;
+    width: 900px;
+    justify-content: center;
+  }
+  
+  .image-box {
+    flex: 0 0 30%;
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 100%;
+    height: 250px; /* Reduced height for smaller images */
+    object-fit: contain;
+  }
+  
